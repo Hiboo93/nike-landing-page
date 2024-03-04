@@ -1,32 +1,34 @@
+import { Hero, CustomerReviews, PopularProducts, SpecialOffers, Services, Subscribe, SuperQuality, Footer } from './sections';
+
 export default function App() {
   return (
     <main className="main ">
       <div className="container mx-auto p-4 relative">
         nav 
         <section className="w-screen">
-          Hero
+          <Hero/>
         </section>
         <section className="w-screen px-8 py-24">
-          PopularProducts
+          <PopularProducts/>
         </section>
         <section className="w-screen px-8 py-24">
-          SuperQuality
+          <SuperQuality/>
         </section>
         <section className=" w-screen px-8 py-24">
-          Services
+          <Services/>
         </section>
         <section className=" w-screen px-8 py-24">
-          SpecialOffers
+          <SpecialOffers/>
         </section>
         <section className="bg-blue-50 w-screen px-8 py-24">
-          CustomerReviews
+          <CustomerReviews/>
         </section>
         <section className="w-screen px-8 py-24">
-          Subscribe
+          <Subscribe/>
         </section>
       </div>
         <section className="bg-black text-white w-screen px-8 py-24">
-          Footer
+          <Footer/>
         </section>
     </main>
   )
