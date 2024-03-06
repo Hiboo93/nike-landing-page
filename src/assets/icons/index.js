@@ -6,9 +6,9 @@ import facebook from './facebook.svg'
 import hamburger from './hamburger.svg'
 import instagram from './instagram.svg'
 import support from './support.svg'
-import shieldTick from './shield-tick.svg'
+import shieldTick from './shieldTick.svg'
 import star from './star.svg'
-import truckFast from './truck-fast.svg'
+import truckFast from './truckFast.svg'
 import twitter from './twitter.svg'
 
 export {
@@ -25,3 +25,4 @@ export {
     truckFast,
     twitter
 }
+
