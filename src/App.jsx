@@ -3,32 +3,30 @@ import { Hero, CustomerReviews, PopularProducts, SpecialOffers, Services, Subscr
 
 export default function App() {
   return (
-    <main className="main ">
-      <div className="container mx-auto p-4 relative">
+    <main className="relative ">
         <Nav/>
-        <section className="w-screen">
+        <section className="xl:padding-1 wide:padding-r padding-b">
           <Hero/>
         </section>
-        <section className="w-screen  py-24">
+        <section className="padding">
           <PopularProducts/>
         </section>
-        <section className="w-screen  py-24">
+        <section className="padding">
           <SuperQuality/>
         </section>
-        <section className=" w-screen  py-24">
+        <section className="padding-x py-10">
           <Services/>
         </section>
-        <section className=" w-screen py-24">
+        <section className="padding">
           <SpecialOffers/>
         </section>
-        <section className="bg-blue-50 w-screen py-24">
+        <section className="bg-blue-50 padding">
           <CustomerReviews/>
         </section>
-        <section className="w-screen py-24">
+        <section className="padding-x sm:py-32 py-16 w-full">
           <Subscribe/>
         </section>
-      </div>
-        <section className="bg-black text-white w-screen py-24">
+        <section className="bg-black padding-x padding-t pb-8">
           <Footer/>
         </section>
     </main>
