@@ -1,7 +1,6 @@
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants/index.js";
-
-import { hamburger } from "../assets/icons"
+import { hamburger } from "../assets/icons";
 
 const Nav = () => {
   return (
@@ -13,7 +12,12 @@ const Nav = () => {
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a className="font-roboto leading-normal text-lg text-slate-gray" href={item.href}>{item.label}</a>
+              <a
+                className="font-roboto leading-normal text-lg text-slate-gray"
+                href={item.href}
+              >
+                {item.label}
+              </a>
             </li>
           ))}
         </ul>
