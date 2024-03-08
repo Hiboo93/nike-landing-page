@@ -63,14 +63,14 @@ export const services = [
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
-    rating: 4.5,
+    customerName: "Marc Brownie",
+    rating: 5.5,
     feedback: "the attention to detail and the quality of the product exceeded my expectations highly recommanded!",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    customerName: "Lola Mongash",
+    rating: 4.8,
     feedback:
       "the product not only met but exxeeded my expectations; I'll definitely be a returning customer !",
   },
