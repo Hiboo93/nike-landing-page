@@ -45,7 +45,7 @@ export const services = [
   {
     imgUrl: truckFast,
     label: "Free shipping",
-    subtext: "enjoy seamless shopping with our complimentary shipping service.",
+    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
   },
   {
     imgUrl: shieldTick,
